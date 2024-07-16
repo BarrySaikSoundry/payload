@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/elements/WhereBuilder/Condition/Date/types.ts"],"sourcesContent":["import type { Props as DateType } from '../../../../elements/DatePicker/types.js'\n\nexport type Props = {\n  admin?: {\n    date?: DateType\n  }\n  disabled?: boolean\n  onChange: () => void\n  value: Date\n}\n"],"names":[],"mappings":"AAEA,WAOC"}

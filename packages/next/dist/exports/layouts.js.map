@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/exports/layouts.ts"],"sourcesContent":["export { RootLayout, metadata } from '../layouts/Root/index.js'\n"],"names":["RootLayout","metadata"],"mappings":"AAAA,SAASA,UAAU,EAAEC,QAAQ,QAAQ,2BAA0B"}

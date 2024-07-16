@@ -1,0 +1,1 @@
+{"version":3,"file":"createClientComponent.d.ts","sourceRoot":"","sources":["../../src/features/createClientComponent.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,6BAA6B,EAAE,MAAM,kBAAkB,CAAA;AACrE,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,kBAAkB,CAAA;AAIrD;;GAEG;AACH,eAAO,MAAM,qBAAqB,GAAI,kBAAkB,iBACvC,6BAA6B,CAAC,kBAAkB,CAAC,KAC/D,aAAa,CAAC,OAAO,EAAE,kBAAkB,CAAC,CAAC,eAAe,CAK5D,CAAA"}

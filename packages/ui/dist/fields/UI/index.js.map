@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/fields/UI/index.tsx"],"sourcesContent":["import type React from 'react'\n\nexport const UIField: React.FC = () => {\n  return null\n}\n"],"names":["UIField"],"mappings":"AAEA,OAAO,MAAMA,UAAoB;IAC/B,OAAO;AACT,EAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/lexical/utils/guard.ts"],"sourcesContent":["export function isHTMLElement(x: unknown): x is HTMLElement {\n  return x instanceof HTMLElement\n}\n"],"names":["isHTMLElement","x","HTMLElement"],"mappings":"AAAA,OAAO,SAASA,cAAcC,CAAU;IACtC,OAAOA,aAAaC;AACtB"}

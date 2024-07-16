@@ -1,0 +1,1 @@
+{"version":3,"file":"handleMessage.d.ts","sourceRoot":"","sources":["../src/handleMessage.ts"],"names":[],"mappings":"AAaA,eAAO,MAAM,aAAa,GAAU,CAAC,QAAQ;IAC3C,QAAQ,CAAC,EAAE,MAAM,CAAA;IACjB,KAAK,CAAC,EAAE,MAAM,CAAA;IACd,KAAK,EAAE,YAAY,CAAA;IACnB,WAAW,EAAE,CAAC,CAAA;IACd,SAAS,EAAE,MAAM,CAAA;CAClB,KAAG,OAAO,CAAC,CAAC,CAmCZ,CAAA"}

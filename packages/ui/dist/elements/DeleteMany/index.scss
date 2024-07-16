@@ -1,0 +1,18 @@
+@import '../../scss/styles.scss';
+
+.delete-documents {
+  @include blur-bg;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+
+  &__template {
+    z-index: 1;
+    position: relative;
+  }
+
+  .btn {
+    margin-right: $baseline;
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"hasSavePermission.d.ts","sourceRoot":"","sources":["../../src/utilities/hasSavePermission.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAwB,mBAAmB,EAAoB,MAAM,SAAS,CAAA;AAE1F,eAAO,MAAM,iBAAiB,SAAU;IAItC,cAAc,CAAC,EAAE,MAAM,CAAA;IACvB,cAAc,EAAE,mBAAmB,CAAA;IAInC,UAAU,CAAC,EAAE,MAAM,CAAA;IACnB,SAAS,EAAE,OAAO,CAAA;CACnB,YAeA,CAAA"}

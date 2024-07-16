@@ -1,0 +1,1 @@
+{"version":3,"file":"getRangeFromHeader.d.ts","sourceRoot":"","sources":["../../src/utils/getRangeFromHeader.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,eAAe,EAAE,MAAM,qBAAqB,CAAA;AAI1D,eAAO,MAAM,kBAAkB,oBACZ,eAAe,gBAClB,MAAM,KACnB,OAAO,CAAC;IAAE,GAAG,EAAE,MAAM,GAAG,SAAS,CAAC;IAAC,KAAK,EAAE,MAAM,CAAA;CAAE,CAkBpD,CAAA"}

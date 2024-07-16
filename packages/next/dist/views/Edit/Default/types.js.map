@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/views/Edit/Default/types.ts"],"sourcesContent":["import type { SanitizedCollectionConfig } from 'payload'\n\nexport type IndexProps = {\n  collection: SanitizedCollectionConfig\n  isEditing?: boolean\n}\n"],"names":[],"mappings":"AAEA,WAGC"}

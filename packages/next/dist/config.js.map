@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/config.ts"],"sourcesContent":["import type { SanitizedConfig } from 'payload'\n\nexport default {} as Promise<SanitizedConfig>\n"],"names":[],"mappings":"AAEA,eAAe,CAAC,EAA6B"}

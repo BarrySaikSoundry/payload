@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/resolvers/globals/index.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,cAAc,CAAA;AAClC,OAAO,eAAe,MAAM,sBAAsB,CAAA;AAClD,OAAO,YAAY,MAAM,mBAAmB,CAAA;AAC5C,OAAO,cAAc,MAAM,qBAAqB,CAAA;AAChD,OAAO,MAAM,MAAM,aAAa,CAAA;AAEhC,OAAO,EAAE,OAAO,EAAE,eAAe,EAAE,YAAY,EAAE,cAAc,EAAE,MAAM,EAAE,CAAA"}

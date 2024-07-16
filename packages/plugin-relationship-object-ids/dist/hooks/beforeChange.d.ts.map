@@ -1,0 +1,1 @@
+{"version":3,"file":"beforeChange.d.ts","sourceRoot":"","sources":["../../src/hooks/beforeChange.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAoB,MAAM,EAAE,SAAS,EAAE,iBAAiB,EAAE,WAAW,EAAE,MAAM,SAAS,CAAA;AA8BlG,eAAO,MAAM,mBAAmB,sBACV;IAAE,MAAM,EAAE,MAAM,CAAC;IAAC,KAAK,EAAE,iBAAiB,GAAG,WAAW,CAAA;CAAE,KAAG,SA8DhF,CAAA"}

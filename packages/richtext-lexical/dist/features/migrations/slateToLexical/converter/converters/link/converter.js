@@ -1,0 +1,30 @@
+import { convertSlateNodesToLexical } from '../../index.js';
+export const _SlateLinkConverter = {
+    converter ({ converters, slateNode }) {
+        return {
+            type: 'link',
+            children: convertSlateNodesToLexical({
+                canContainParagraphs: false,
+                converters,
+                parentNodeType: 'link',
+                slateNodes: slateNode.children
+            }),
+            direction: 'ltr',
+            fields: {
+                ...slateNode.fields || {},
+                doc: slateNode.doc || null,
+                linkType: slateNode.linkType || 'custom',
+                newTab: slateNode.newTab || false,
+                url: slateNode.url || undefined
+            },
+            format: '',
+            indent: 0,
+            version: 2
+        };
+    },
+    nodeTypes: [
+        'link'
+    ]
+};
+
+//# sourceMappingURL=converter.js.map

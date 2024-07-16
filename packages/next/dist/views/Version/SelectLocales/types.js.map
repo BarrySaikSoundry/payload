@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/views/Version/SelectLocales/types.ts"],"sourcesContent":["import type { OptionObject } from 'payload'\n\nexport type Props = {\n  onChange: (options: OptionObject[]) => void\n  options: OptionObject[]\n  value: OptionObject[]\n}\n"],"names":[],"mappings":"AAEA,WAIC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"getStorageClient.d.ts","sourceRoot":"","sources":["../../src/utils/getStorageClient.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,eAAe,EAAE,MAAM,qBAAqB,CAAA;AAI1D,OAAO,KAAK,EAAE,mBAAmB,EAAE,MAAM,aAAa,CAAA;AAItD,wBAAgB,gBAAgB,CAC9B,OAAO,EAAE,IAAI,CAAC,mBAAmB,EAAE,kBAAkB,GAAG,eAAe,CAAC,GACvE,eAAe,CAQjB"}

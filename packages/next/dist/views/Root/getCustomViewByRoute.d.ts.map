@@ -1,0 +1,1 @@
+{"version":3,"file":"getCustomViewByRoute.d.ts","sourceRoot":"","sources":["../../../src/views/Root/getCustomViewByRoute.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,kBAAkB,EAAE,eAAe,EAAE,MAAM,SAAS,CAAA;AAIlE,eAAO,MAAM,oBAAoB,qDAG9B;IACD,MAAM,EAAE,eAAe,CAAA;IACvB,YAAY,EAAE,MAAM,CAAA;CACrB,KAAG,kBA0BH,CAAA"}

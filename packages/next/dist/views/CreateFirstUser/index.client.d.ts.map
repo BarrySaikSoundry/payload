@@ -1,0 +1,1 @@
+{"version":3,"file":"index.client.d.ts","sourceRoot":"","sources":["../../../src/views/CreateFirstUser/index.client.tsx"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,SAAS,CAAA;AAexC,OAAO,KAAK,MAAM,OAAO,CAAA;AAEzB,eAAO,MAAM,qBAAqB,EAAE,KAAK,CAAC,EAAE,CAAC;IAC3C,YAAY,EAAE,SAAS,CAAA;IACvB,QAAQ,EAAE,MAAM,CAAA;CACjB,CAuDA,CAAA"}

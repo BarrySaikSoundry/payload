@@ -1,0 +1,90 @@
+'use client';
+import { jsx as _jsx } from "react/jsx-runtime";
+import { useWindowInfo } from '@faceless-ui/window-info';
+import { clearAllBodyScrollLocks, disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import React, { useEffect, useRef } from 'react';
+import { usePreferences } from '../../providers/Preferences/index.js';
+export const NavContext = /*#__PURE__*/ React.createContext({
+    navOpen: true,
+    navRef: null,
+    setNavOpen: ()=>{}
+});
+export const useNav = ()=>React.useContext(NavContext);
+const getNavPreference = async (getPreference)=>{
+    const navPrefs = await getPreference('nav');
+    const preferredState = navPrefs?.open;
+    if (typeof preferredState === 'boolean') {
+        return preferredState;
+    } else {
+        return true;
+    }
+};
+export const NavProvider = ({ children })=>{
+    const { breakpoints: { l: largeBreak, m: midBreak, s: smallBreak } } = useWindowInfo();
+    const { getPreference } = usePreferences();
+    const navRef = useRef(null);
+    // initialize the nav to be closed
+    // this is because getting the preference is async
+    // so instead of closing it after the preference is loaded
+    // we will open it after the preference is loaded
+    const [navOpen, setNavOpen] = React.useState(false);
+    // on load check the user's preference and set "initial" state
+    useEffect(()=>{
+        if (largeBreak === false) {
+            const setNavFromPreferences = async ()=>{
+                const preferredState = await getNavPreference(getPreference);
+                setNavOpen(preferredState);
+            };
+            setNavFromPreferences() // eslint-disable-line @typescript-eslint/no-floating-promises
+            ;
+        }
+    }, [
+        largeBreak,
+        getPreference,
+        setNavOpen
+    ]);
+    // TODO: on smaller screens where the nav is a modal
+    // close the nav when the user navigates away
+    // on open and close, lock the body scroll
+    // do not do this on desktop, the sidebar is not a modal
+    useEffect(()=>{
+        if (navRef.current) {
+            if (navOpen && midBreak) {
+                disableBodyScroll(navRef.current);
+            } else {
+                enableBodyScroll(navRef.current);
+            }
+        }
+    }, [
+        navOpen,
+        midBreak
+    ]);
+    // on smaller screens where the nav is a modal
+    // close the nav when the user resizes down to mobile
+    // the sidebar is a modal on mobile
+    useEffect(()=>{
+        if (largeBreak === false || midBreak === false || smallBreak === false) {
+            setNavOpen(false);
+        }
+    }, [
+        largeBreak,
+        midBreak,
+        smallBreak
+    ]);
+    // when the component unmounts, clear all body scroll locks
+    useEffect(()=>{
+        return ()=>{
+            clearAllBodyScrollLocks();
+        };
+    }, []);
+    return /*#__PURE__*/ _jsx(NavContext.Provider, {
+        value: {
+            navOpen,
+            navRef,
+            setNavOpen
+        },
+        children: children
+    });
+};
+
+//# sourceMappingURL=context.js.map

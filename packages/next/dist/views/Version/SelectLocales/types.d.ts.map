@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../../src/views/Version/SelectLocales/types.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,SAAS,CAAA;AAE3C,MAAM,MAAM,KAAK,GAAG;IAClB,QAAQ,EAAE,CAAC,OAAO,EAAE,YAAY,EAAE,KAAK,IAAI,CAAA;IAC3C,OAAO,EAAE,YAAY,EAAE,CAAA;IACvB,KAAK,EAAE,YAAY,EAAE,CAAA;CACtB,CAAA"}

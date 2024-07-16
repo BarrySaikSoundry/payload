@@ -1,0 +1,1 @@
+{"version":3,"file":"handleAdminPage.d.ts","sourceRoot":"","sources":["../../../src/utilities/initPage/handleAdminPage.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EACV,WAAW,EACX,yBAAyB,EACzB,eAAe,EACf,qBAAqB,EACtB,MAAM,SAAS,CAAA;AAMhB,eAAO,MAAM,eAAe,gDAKzB;IACD,UAAU,EAAE,MAAM,CAAA;IAClB,MAAM,EAAE,eAAe,CAAA;IACvB,WAAW,EAAE,WAAW,CAAA;IACxB,KAAK,EAAE,MAAM,CAAA;CACd;;;;CAqCA,CAAA"}

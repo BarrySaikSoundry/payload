@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/elements/Modal/index.tsx"],"sourcesContent":["import { Modal, useModal } from '@faceless-ui/modal'\nexport { Modal, useModal }\n"],"names":["Modal","useModal"],"mappings":"AAAA,SAASA,KAAK,EAAEC,QAAQ,QAAQ,qBAAoB;AACpD,SAASD,KAAK,EAAEC,QAAQ,GAAE"}

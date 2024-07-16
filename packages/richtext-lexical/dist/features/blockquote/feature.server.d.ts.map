@@ -1,0 +1,1 @@
+{"version":3,"file":"feature.server.d.ts","sourceRoot":"","sources":["../../../src/features/blockquote/feature.server.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,mBAAmB,IAAI,oBAAoB,EAAE,MAAM,oBAAoB,CAAA;AACrF,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,SAAS,CAAA;AAYrC,MAAM,MAAM,mBAAmB,GAAG,MAAM,CACtC;IACE,IAAI,EAAE,OAAO,CAAA;CACd,EACD,oBAAoB,CACrB,CAAA;AAED,eAAO,MAAM,iBAAiB,sFA+B5B,CAAA"}

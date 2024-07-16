@@ -1,0 +1,1 @@
+{"version":3,"file":"useLivePreview.d.ts","sourceRoot":"","sources":["../src/useLivePreview.ts"],"names":[],"mappings":"AASA,eAAO,MAAM,cAAc,GAAI,CAAC,yBAAqB;IACnD,QAAQ,CAAC,EAAE,MAAM,CAAA;IACjB,KAAK,CAAC,EAAE,MAAM,CAAA;IACd,WAAW,EAAE,CAAC,CAAA;IACd,SAAS,EAAE,MAAM,CAAA;CAClB,KAAG;IACF,IAAI,EAAE,CAAC,CAAA;IACP,SAAS,EAAE,OAAO,CAAA;CAsCnB,CAAA"}

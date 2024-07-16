@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/exports/templates.ts"],"sourcesContent":["export { DefaultTemplate, type DefaultTemplateProps } from '../templates/Default/index.js'\nexport { MinimalTemplate, type MinimalTemplateProps } from '../templates/Minimal/index.js'\n"],"names":["DefaultTemplate","MinimalTemplate"],"mappings":"AAAA,SAASA,eAAe,QAAmC,gCAA+B;AAC1F,SAASC,eAAe,QAAmC,gCAA+B"}

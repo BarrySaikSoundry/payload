@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/admin.js"],"sourcesContent":["export const payloadCloud = () => (config) => config\n"],"names":["payloadCloud","config"],"mappings":"AAAA,OAAO,MAAMA,eAAe,IAAM,CAACC,SAAWA,OAAM"}

@@ -1,0 +1,21 @@
+@import '../../scss/styles.scss';
+
+html[data-theme='light'] {
+  .date-time-field {
+    &--has-error {
+      .react-datepicker__input-container input {
+        @include lightInputError;
+      }
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .date-time-field {
+    &--has-error {
+      .react-datepicker__input-container input {
+        @include darkInputError;
+      }
+    }
+  }
+}

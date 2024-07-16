@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/elements/DatePicker/types.ts"],"sourcesContent":["import type { DayPickerProps, SharedProps, TimePickerProps } from 'payload'\n\nexport type Props = {\n  onChange?: (val: Date) => void\n  placeholder?: string\n  readOnly?: boolean\n  value?: Date\n} & DayPickerProps &\n  SharedProps &\n  TimePickerProps\n"],"names":[],"mappings":"AAEA,WAOiB"}

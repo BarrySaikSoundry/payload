@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/exports/azure.ts"],"sourcesContent":["export { azureBlobStorageAdapter } from '../adapters/azure/index.js'\n"],"names":["azureBlobStorageAdapter"],"mappings":"AAAA,SAASA,uBAAuB,QAAQ,6BAA4B"}

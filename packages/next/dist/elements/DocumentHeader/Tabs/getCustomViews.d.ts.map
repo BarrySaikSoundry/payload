@@ -1,0 +1,1 @@
+{"version":3,"file":"getCustomViews.d.ts","sourceRoot":"","sources":["../../../../src/elements/DocumentHeader/Tabs/getCustomViews.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,yBAAyB,EAAE,qBAAqB,EAAE,MAAM,SAAS,CAAA;AAI/F,eAAO,MAAM,cAAc,SAAU;IACnC,gBAAgB,EAAE,yBAAyB,CAAA;IAC3C,YAAY,EAAE,qBAAqB,CAAA;CACpC,KAAG,cAAc,EAsCjB,CAAA"}

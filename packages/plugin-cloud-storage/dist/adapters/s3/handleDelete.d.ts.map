@@ -1,0 +1,1 @@
+{"version":3,"file":"handleDelete.d.ts","sourceRoot":"","sources":["../../../src/adapters/s3/handleDelete.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,GAAG,MAAM,oBAAoB,CAAA;AAI9C,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAA;AAElD,UAAU,IAAI;IACZ,MAAM,EAAE,MAAM,CAAA;IACd,gBAAgB,EAAE,MAAM,GAAG,CAAC,EAAE,CAAA;CAC/B;AAED,eAAO,MAAM,eAAe,iCAAkC,IAAI,KAAG,YAOpE,CAAA"}

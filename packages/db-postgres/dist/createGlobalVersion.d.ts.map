@@ -1,0 +1,1 @@
+{"version":3,"file":"createGlobalVersion.d.ts","sourceRoot":"","sources":["../src/createGlobalVersion.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,uBAAuB,EAAkB,UAAU,EAAE,eAAe,EAAE,MAAM,SAAS,CAAA;AAMnG,OAAO,KAAK,EAAE,eAAe,EAAE,MAAM,YAAY,CAAA;AAIjD,wBAAsB,mBAAmB,CAAC,CAAC,SAAS,UAAU,EAC5D,IAAI,EAAE,eAAe,EACrB,EAAE,QAAQ,EAAE,UAAU,EAAE,GAA0B,EAAE,WAAW,EAAE,EAAE,uBAAuB,+BAgC3F"}

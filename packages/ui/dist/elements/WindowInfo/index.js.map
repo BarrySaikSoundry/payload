@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/elements/WindowInfo/index.tsx"],"sourcesContent":["import { WindowInfoProvider, useWindowInfo } from '@faceless-ui/window-info'\nexport { WindowInfoProvider, useWindowInfo }\n"],"names":["WindowInfoProvider","useWindowInfo"],"mappings":"AAAA,SAASA,kBAAkB,EAAEC,aAAa,QAAQ,2BAA0B;AAC5E,SAASD,kBAAkB,EAAEC,aAAa,GAAE"}

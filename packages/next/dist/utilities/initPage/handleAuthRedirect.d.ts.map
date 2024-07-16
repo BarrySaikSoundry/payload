@@ -1,0 +1,1 @@
+{"version":3,"file":"handleAuthRedirect.d.ts","sourceRoot":"","sources":["../../../src/utilities/initPage/handleAuthRedirect.ts"],"names":[],"mappings":"AAKA,eAAO,MAAM,kBAAkB,kEAK5B;IACD,MAAM,MAAA;IACN,2BAA2B,EAAE,OAAO,GAAG,MAAM,CAAA;IAC7C,KAAK,EAAE,MAAM,CAAA;IACb,YAAY,EAAE;QAAE,CAAC,GAAG,EAAE,MAAM,GAAG,MAAM,GAAG,MAAM,EAAE,CAAA;KAAE,CAAA;CACnD,SAsCA,CAAA"}

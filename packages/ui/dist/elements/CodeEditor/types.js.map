@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/elements/CodeEditor/types.ts"],"sourcesContent":["import type { EditorProps } from '@monaco-editor/react'\n\nexport type Props = {\n  readOnly?: boolean\n} & EditorProps\n"],"names":[],"mappings":"AAEA,WAEe"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"getViewConfig.d.ts","sourceRoot":"","sources":["../../../../src/elements/DocumentHeader/Tabs/getViewConfig.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,yBAAyB,EAAE,qBAAqB,EAAE,MAAM,SAAS,CAAA;AAE/F,eAAO,MAAM,aAAa,SAAU;IAClC,gBAAgB,EAAE,yBAAyB,CAAA;IAC3C,YAAY,EAAE,qBAAqB,CAAA;IACnC,IAAI,EAAE,MAAM,CAAA;CACb,KAAG,cAwBH,CAAA"}

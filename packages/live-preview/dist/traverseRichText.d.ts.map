@@ -1,0 +1,1 @@
+{"version":3,"file":"traverseRichText.d.ts","sourceRoot":"","sources":["../src/traverseRichText.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,uBAAuB,EAAE,eAAe,EAAE,MAAM,YAAY,CAAA;AAE1E,eAAO,MAAM,gBAAgB,sFAK1B;IACD,6BAA6B,CAAC,EAAE,eAAe,CAAA;IAC/C,YAAY,EAAE,GAAG,CAAA;IACjB,uBAAuB,EAAE,uBAAuB,CAAA;IAChD,MAAM,EAAE,GAAG,CAAA;CACZ,KAAG,GA0FH,CAAA"}

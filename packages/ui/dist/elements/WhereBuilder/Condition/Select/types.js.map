@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../src/elements/WhereBuilder/Condition/Select/types.ts"],"sourcesContent":["import type { Operator, Option } from 'payload'\n\nexport type Props = {\n  disabled?: boolean\n  onChange: (val: string) => void\n  operator: Operator\n  options: Option[]\n  value: string\n}\n"],"names":[],"mappings":"AAEA,WAMC"}

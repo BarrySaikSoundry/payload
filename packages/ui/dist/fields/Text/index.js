@@ -1,0 +1,113 @@
+'use client';
+import { jsx as _jsx } from "react/jsx-runtime";
+import React, { useCallback, useEffect, useState } from 'react';
+import { useFieldProps } from '../../forms/FieldPropsProvider/index.js';
+import { useField } from '../../forms/useField/index.js';
+import { withCondition } from '../../forms/withCondition/index.js';
+import { useConfig } from '../../providers/Config/index.js';
+import { useLocale } from '../../providers/Locale/index.js';
+import { isFieldRTL } from '../shared/index.js';
+import { TextInput } from './Input.js';
+import './index.scss';
+export { TextInput };
+const _TextField = (props)=>{
+    const { name, AfterInput, BeforeInput, CustomDescription, CustomError, CustomLabel, className, descriptionProps, errorProps, hasMany, inputRef, label, labelProps, localized, maxLength, maxRows, minLength, minRows, path: pathFromProps, placeholder, readOnly: readOnlyFromProps, required, rtl, style, validate, width } = props;
+    const locale = useLocale();
+    const { localization: localizationConfig } = useConfig();
+    const memoizedValidate = useCallback((value, options)=>{
+        if (typeof validate === 'function') return validate(value, {
+            ...options,
+            maxLength,
+            minLength,
+            required
+        });
+    }, [
+        validate,
+        minLength,
+        maxLength,
+        required
+    ]);
+    const { path: pathFromContext, readOnly: readOnlyFromContext } = useFieldProps();
+    const { formInitializing, formProcessing, path, setValue, showError, value } = useField({
+        path: pathFromContext ?? pathFromProps ?? name,
+        validate: memoizedValidate
+    });
+    const disabled = readOnlyFromProps || readOnlyFromContext || formProcessing || formInitializing;
+    const renderRTL = isFieldRTL({
+        fieldLocalized: localized,
+        fieldRTL: rtl,
+        locale,
+        localizationConfig: localizationConfig || undefined
+    });
+    const [valueToRender, setValueToRender] = useState([]) // Only for hasMany
+    ;
+    const handleHasManyChange = useCallback((selectedOption)=>{
+        if (!disabled) {
+            let newValue;
+            if (!selectedOption) {
+                newValue = [];
+            } else if (Array.isArray(selectedOption)) {
+                newValue = selectedOption.map((option)=>option.value?.value || option.value);
+            } else {
+                newValue = [
+                    selectedOption.value?.value || selectedOption.value
+                ];
+            }
+            setValue(newValue);
+        }
+    }, [
+        disabled,
+        setValue
+    ]);
+    // useEffect update valueToRender:
+    useEffect(()=>{
+        if (hasMany && Array.isArray(value)) {
+            setValueToRender(value.map((val, index)=>{
+                return {
+                    id: `${val}${index}`,
+                    label: `${val}`,
+                    value: {
+                        // React-select automatically uses "label-value" as a key, so we will get that react duplicate key warning if we just pass in the value as multiple values can be the same. So we need to append the index to the toString() of the value to avoid that warning, as it uses that as the key.
+                        toString: ()=>`${val}${index}`,
+                        value: val?.value || val
+                    }
+                };
+            }));
+        }
+    }, [
+        value,
+        hasMany
+    ]);
+    return /*#__PURE__*/ _jsx(TextInput, {
+        AfterInput: AfterInput,
+        BeforeInput: BeforeInput,
+        CustomDescription: CustomDescription,
+        CustomError: CustomError,
+        CustomLabel: CustomLabel,
+        className: className,
+        descriptionProps: descriptionProps,
+        errorProps: errorProps,
+        hasMany: hasMany,
+        inputRef: inputRef,
+        label: label,
+        labelProps: labelProps,
+        maxRows: maxRows,
+        minRows: minRows,
+        onChange: hasMany ? handleHasManyChange : (e)=>{
+            setValue(e.target.value);
+        },
+        path: path,
+        placeholder: placeholder,
+        readOnly: disabled,
+        required: required,
+        rtl: renderRTL,
+        showError: showError,
+        style: style,
+        value: value || '',
+        valueToRender: valueToRender,
+        width: width
+    });
+};
+export const TextField = withCondition(_TextField);
+
+//# sourceMappingURL=index.js.map

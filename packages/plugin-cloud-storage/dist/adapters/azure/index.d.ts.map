@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/adapters/azure/index.ts"],"names":[],"mappings":"AAIA,OAAO,KAAK,EAAE,OAAO,EAAoB,MAAM,gBAAgB,CAAA;AAO/D,MAAM,WAAW,IAAI;IACnB,oBAAoB,EAAE,OAAO,CAAA;IAC7B,OAAO,EAAE,MAAM,CAAA;IACf,gBAAgB,EAAE,MAAM,CAAA;IACxB,aAAa,EAAE,MAAM,CAAA;CACtB;AAED;;;;GAIG;AACH,eAAO,MAAM,uBAAuB,wEAKjC,IAAI,KAAG,OA2CT,CAAA"}

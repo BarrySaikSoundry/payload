@@ -1,0 +1,1 @@
+{"version":3,"file":"checkEndpoints.d.ts","sourceRoot":"","sources":["../../../src/routes/rest/checkEndpoints.ts"],"names":[],"mappings":"AAEA,eAAO,MAAM,oBAAoB,4BAG9B;IACD,SAAS,EAAE,KAAK,GAAG,OAAO,EAAE,CAAA;IAC5B,OAAO,EAAE,OAAO,CAAC,OAAO,CAAC,CAAA;CAC1B,aAWA,CAAA"}

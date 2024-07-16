@@ -1,0 +1,30 @@
+import type { ArrayField, FieldPermissions, Row } from 'payload';
+import React from 'react';
+import type { UseDraggableSortableReturn } from '../../elements/DraggableSortable/useDraggableSortable/types.js';
+import type { FieldMap } from '../../providers/ComponentMap/buildComponentMap/types.js';
+import './index.scss';
+type ArrayRowProps = {
+    CustomRowLabel?: React.ReactNode;
+    addRow: (rowIndex: number) => void;
+    duplicateRow: (rowIndex: number) => void;
+    errorCount: number;
+    fieldMap: FieldMap;
+    forceRender?: boolean;
+    hasMaxRows?: boolean;
+    indexPath: string;
+    isSortable?: boolean;
+    labels: ArrayField['labels'];
+    moveRow: (fromIndex: number, toIndex: number) => void;
+    path: string;
+    permissions: FieldPermissions;
+    readOnly?: boolean;
+    removeRow: (rowIndex: number) => void;
+    row: Row;
+    rowCount: number;
+    rowIndex: number;
+    schemaPath: string;
+    setCollapse: (rowID: string, collapsed: boolean) => void;
+} & UseDraggableSortableReturn;
+export declare const ArrayRow: React.FC<ArrayRowProps>;
+export {};
+//# sourceMappingURL=ArrayRow.d.ts.map
