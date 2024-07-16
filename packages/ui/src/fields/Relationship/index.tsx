@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 import type { PaginatedDocs, Where } from 'payload'
 
@@ -200,16 +201,26 @@ const _RelationshipField: React.FC<RelationshipFieldProps> = (props) => {
               query.where.and.push(relationFilterOption)
             }
 
-            const response = await fetch(`${serverURL}${api}/${relation}`, {
-              body: qs.stringify(query),
-              credentials: 'include',
-              headers: {
-                'Accept-Language': i18n.language,
-                'Content-Type': 'application/x-www-form-urlencoded',
-                'X-HTTP-Method-Override': 'GET',
-              },
-              method: 'POST',
-            })
+            let response
+            if (Object.keys(relationMap).length > 100) {
+              response = await fetch(`${serverURL}${api}/${relation}`, {
+                body: qs.stringify(query),
+                credentials: 'include',
+                headers: {
+                  'Accept-Language': i18n.language,
+                  'Content-Type': 'application/x-www-form-urlencoded',
+                  'X-HTTP-Method-Override': 'GET',
+                },
+                method: 'POST',
+              })
+            } else {
+              response = await fetch(`${serverURL}${api}/${relation}?${qs.stringify(query)}`, {
+                credentials: 'include',
+                headers: {
+                  'Accept-Language': i18n.language,
+                },
+              })
+            }
 
             if (response.ok) {
               const data: PaginatedDocs<unknown> = await response.json()
@@ -329,16 +340,26 @@ const _RelationshipField: React.FC<RelationshipFieldProps> = (props) => {
         }
 
         if (!errorLoading) {
-          const response = await fetch(`${serverURL}${api}/${relation}`, {
-            body: qs.stringify(query),
-            credentials: 'include',
-            headers: {
-              'Accept-Language': i18n.language,
-              'Content-Type': 'application/x-www-form-urlencoded',
-              'X-HTTP-Method-Override': 'GET',
-            },
-            method: 'POST',
-          })
+          let response
+          if (Object.keys(relationMap).length > 100) {
+            response = await fetch(`${serverURL}${api}/${relation}`, {
+              body: qs.stringify(query),
+              credentials: 'include',
+              headers: {
+                'Accept-Language': i18n.language,
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-HTTP-Method-Override': 'GET',
+              },
+              method: 'POST',
+            })
+          } else {
+            response = await fetch(`${serverURL}${api}/${relation}?${qs.stringify(query)}`, {
+              credentials: 'include',
+              headers: {
+                'Accept-Language': i18n.language,
+              },
+            })
+          }
 
           const collection = collections.find((coll) => coll.slug === relation)
           let docs = []
