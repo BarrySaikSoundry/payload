@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/plugin-redirects",
+  "name": "@soundryhealth/payload-plugin-redirects",
   "version": "3.0.0-beta.65",
   "description": "Redirects plugin for Payload",
   "keywords": [

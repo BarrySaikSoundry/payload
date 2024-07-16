@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/email-nodemailer",
+  "name": "@soundryhealth/payload-email-nodemailer",
   "version": "3.0.0-beta.65",
   "description": "Payload Nodemailer Email Adapter",
   "homepage": "https://payloadcms.com",

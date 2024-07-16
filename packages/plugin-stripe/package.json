@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/plugin-stripe",
+  "name": "@soundryhealth/payload-plugin-stripe",
   "version": "3.0.0-beta.65",
   "description": "Stripe plugin for Payload",
   "keywords": [

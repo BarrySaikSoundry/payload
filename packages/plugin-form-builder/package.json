@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/plugin-form-builder",
+  "name": "@soundryhealth/payload-plugin-form-builder",
   "version": "3.0.0-beta.65",
   "description": "Form builder plugin for Payload CMS",
   "keywords": [

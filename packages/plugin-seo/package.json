@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/plugin-seo",
+  "name": "@soundryhealth/payload-plugin-seo",
   "version": "3.0.0-beta.65",
   "description": "SEO plugin for Payload",
   "keywords": [

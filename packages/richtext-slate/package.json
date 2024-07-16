@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/richtext-slate",
+  "name": "@soundryhealth/payload-richtext-slate",
   "version": "3.0.0-beta.65",
   "description": "The officially supported Slate richtext adapter for Payload",
   "homepage": "https://payloadcms.com",

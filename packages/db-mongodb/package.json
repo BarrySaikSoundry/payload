@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/db-mongodb",
+  "name": "@soundryhealth/payload-db-mongodb",
   "version": "3.0.0-beta.65",
   "description": "The officially supported MongoDB database adapter for Payload",
   "homepage": "https://payloadcms.com",

@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/storage-azure",
+  "name": "@soundryhealth/payload-storage-azure",
   "version": "3.0.0-beta.65",
   "description": "Payload storage adapter for Azure Blob Storage",
   "homepage": "https://payloadcms.com",

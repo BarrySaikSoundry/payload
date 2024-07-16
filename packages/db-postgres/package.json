@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/db-postgres",
+  "name": "@soundryhealth/payload-db-postgres",
   "version": "3.0.0-beta.65",
   "description": "The officially supported Postgres database adapter for Payload",
   "homepage": "https://payloadcms.com",

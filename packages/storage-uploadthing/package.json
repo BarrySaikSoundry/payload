@@ -1,5 +1,5 @@
 {
-  "name": "@payloadcms/storage-uploadthing",
+  "name": "@soundryhealth/payload-storage-uploadthing",
   "version": "3.0.0-beta.65",
   "description": "Payload storage adapter for uploadthing",
   "homepage": "https://payloadcms.com",
